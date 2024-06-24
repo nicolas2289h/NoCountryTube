@@ -1,0 +1,102 @@
+.estiloSideBar {
+  background-color: #06071b;
+  top: 63.2px;
+  width: 180px;
+  min-height: calc(100vh - 64px); 
+  left: 0;
+  padding: 20px 30px; 
+  color: white;
+  font-size: 14px;
+  position: fixed;
+}
+
+.estiloSideBar h2{
+  font-size: 18px;
+}
+
+.estiloSideBar ul {
+  padding: 0;
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px;
+  height: 55vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.estiloSideBar ul::-webkit-scrollbar {
+  display: none;
+}
+
+.estiloSideBar ul:hover::-webkit-scrollbar {
+  display: block;
+  border-radius: 10px;
+}
+
+.estiloSideBar li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.estiloSideBar li h1{
+  font-size: 14px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.estiloSideBar li::before {
+  content: "•";
+  margin-right: 10px;
+  color: #09fca7;
+}
+
+.estiloSideBar .imgChannels {
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 10px; 
+  order: 2;  
+}
+
+.bottomSection {
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomSection img{
+  margin: 0 !important;
+  height: 40px;
+}
+
+.whiteLine {
+  border: none;
+  border-top: 1px solid white;
+  width: 80%;
+}
+
+.copyrightText {
+  color: white;
+  font-size: 12px;
+}
+
+.iconGitHub{
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.hiperLink{
+  color: white;
+}
+
+@media screen and (max-width:720px) {
+  .estiloSideBar{
+    display: none;
+  }
+}

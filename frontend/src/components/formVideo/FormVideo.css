@@ -1,0 +1,99 @@
+.resize-none {
+  resize: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.form {
+  background-color: #06071B;
+  max-width: 470px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-control {
+  border: 2px solid #09fca7;
+}
+
+.thumbnail-border {
+  width: 130px;
+  height: 74px;
+  border: 1px solid #09fca7;
+  object-fit: cover;
+  object-position: top;
+}
+
+.thumbnail-border img {
+  width: 100%;
+}
+
+.thumbnail-selected {
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff;
+  border: 2px solid #fff;
+}
+
+/* .mt-8{
+  margin-bottom: 70px;
+} */
+
+/* INPUT FILE SUBIR MINIATURA */
+.input-file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+  z-index: -1;
+}
+
+.label-file {
+  width: 130px;
+  height: 74px;
+  font-size: .9rem;
+  color: #06071b;
+  background-color: #09fca7;
+  padding-top: 13px;
+  padding-bottom: 0;
+  position: relative;
+  transition: all 300ms ease;
+}
+
+.label-file:hover {
+  background-color: #00ca83;
+}
+
+.cloud {
+  position: absolute;
+  top: 25px;
+  left: 52px;
+}
+
+.object-fit {
+  object-fit: cover;
+  object-position: top;
+}
+
+.ms-15 {
+  margin-left: 17.5px;
+}
+
+.pointer-events-none{
+  pointer-events: none;
+}
+
+@media screen and (max-width: 890px) {
+  /* .responsive {
+    margin: 0 auto;
+  } */
+
+  /* .thumbnail-border,
+  .label-file {
+    width: 120px;
+  } */
+
+  /* .cloud {
+    display: none;
+  } */
+}

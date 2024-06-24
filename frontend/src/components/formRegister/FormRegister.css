@@ -1,0 +1,30 @@
+.containerRegister {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContentRegister{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.dateInputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.buttonPicker {
+    margin-left: 10px;
+}
+
+.alertRegister {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    white-space: nowrap;
+    top: 45px;
+}

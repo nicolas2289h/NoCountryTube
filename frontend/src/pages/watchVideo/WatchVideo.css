@@ -1,0 +1,28 @@
+.contenidoWatchVideo{
+    margin: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playVideo{
+    width: 65%;
+}
+
+.listAllVideosPlayer{
+    width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .contenidoWatchVideo{
+        margin: 90px 20px 20px 20px;
+        flex-direction: column;
+    }
+
+    .playVideo{
+        width: 100%;
+    }
+
+    .listAllVideosPlayer{
+        width: 100%;
+    }
+}

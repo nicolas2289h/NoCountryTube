@@ -1,0 +1,41 @@
+.containerLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContentLogin{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hyperLinkContainer{
+    display: flex;
+    column-gap: 10px;
+    color: #fff;
+    justify-content: center;
+}
+
+.hyperLink{
+    color: #fff;
+}
+
+.hyperLink:hover{
+    color: #09fca7;
+}
+
+.alertLogin {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    white-space: nowrap;
+    top: 45px;
+}
+
+@media screen and (max-width: 768px) {
+    .hyperLink{
+        color: #09fca7;
+    }
+}
