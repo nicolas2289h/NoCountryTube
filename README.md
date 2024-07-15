@@ -24,7 +24,7 @@ NoCountryTube es una plataforma innovadora para visualizar y subir videos sobre 
 <p align="center">
   <img src="https://github.com/No-Country/c18-17-n-node-react/assets/125521341/4b8af57d-143b-46f1-a072-5d02bef5a29d" width="450" alt="3">
 </p>
-
+ 
 **Listar todos los videos:** Explora todos los videos disponibles en la plataforma.
 <p align="center">
   <img src="https://github.com/No-Country/c18-17-n-node-react/assets/125521341/95ffb2aa-f135-415e-b2d1-28250a8b718c" width="600" alt="listar">
